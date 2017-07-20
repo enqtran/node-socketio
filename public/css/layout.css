@@ -1,0 +1,16 @@
+body {
+    background-color: #ccc;
+}
+#listMessages, #roomListMessages {
+    height: 300px;
+    background: #eee;
+    width: 100%;
+    overflow-x: auto;
+    padding: 10px;
+}
+
+#boxContent {
+    background: #eee;
+    margin-top: 27px;
+    padding: 20px;
+}
