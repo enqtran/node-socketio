@@ -98,7 +98,7 @@ io.on('connection', socket => {
      * TYPING START
      */
     socket.on("NGUOI_DUNG_TYPING_START", function () {
-        let typing = socket.Username + "....";
+        const typing = socket.Username + "....";
         socket.broadcast.emit("SERVER_TRA_TYPING_START", typing);
     });
 
